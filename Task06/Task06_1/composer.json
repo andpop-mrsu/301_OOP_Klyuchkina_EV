@@ -1,0 +1,12 @@
+{
+    "name": "kljuchkinaev/task06_1",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        },
+        "files": [ "src/Product.php", "src/ProductCollection.php", "src/ProductFilteringStrategy.php", "src/ManufacturerFilter.php", "src/MaxPriceFilter.php"]
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    }
+}
