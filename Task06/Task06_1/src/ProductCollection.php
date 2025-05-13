@@ -14,6 +14,7 @@ class ProductCollection
         $filteredProducts = array_filter($this->products, function ($product) use ($filterStrategy) {
             return $filterStrategy->filter($product);
         });
+
         return new ProductCollection(array_values($filteredProducts));
     }
 
